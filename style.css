@@ -120,7 +120,7 @@ h3{font-size: 30px;}
 p{font-size:20px ;
 }
 
-
+/*text-aligns*/
 p{text-align: left;
 }
 
@@ -143,17 +143,14 @@ h3{
   background-image: url(images/Unknown-30.jpg);
   margin:0;
   padding:1em;
-  
  }
 
 
-
-
+/*for the columns in the homepage and quiz*/
 .container{
   display:flex;
   justify-content: center;
 }
-
 
 .card{
   background-color: rgb(194, 169, 169);
@@ -171,7 +168,7 @@ h3{
   text-align: center;
 }
 
-
+/*photos for styles information*/
 .photo{
   float: right;
   width:250px;
@@ -185,11 +182,14 @@ h3{
 
 }
 
+/*photo of homepage*/
 .image{
   width:350px;
   height:auto;
+ 
 }
 
+/*for the quiz*/
 ol{
   background-color: white;
 }
@@ -198,14 +198,10 @@ ol{
   margin:1em;
   display: flex;
   flex-direction: column;
-  
-  
-}
-
-.vragen {
   background-color: rgb(194, 169, 169);
   padding:3em;
 }
+
 .kolom{
   display: flex;
   justify-content: center;
@@ -229,8 +225,15 @@ ol{
   align-items: center;
 }
 
+.quizphoto{
+  margin:0;
+  padding:0;
+  width:400px;
+  height:500px;
+}
 
 
+/*contact us page*/
 .contactus{
   background-color: rgb(194, 169, 169);
   padding:4em;
@@ -243,8 +246,6 @@ ol{
   margin:100px;
   padding:1px;
   background-color: white;
-  
-  
 }
 
 .contactfoto{
@@ -285,13 +286,11 @@ hr{
   margin:1em;
 }
 
-
+/*homepage about us*/
 .fullcontainer{
   background-color:  rgb(194, 169, 169);
   padding:0;
   margin:0;
-  
-  
 }
 
 .fullcard-image{
@@ -304,21 +303,10 @@ hr{
   display: flex;
 }
 
-.logo{
-  width:60px;
-  padding:1px;
-
-}
-
 .linken{
   font-family: synes;
   display: flex;
-  justify-content: center;
-}
-
-.linktekst{
-  display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 .linktext{
@@ -331,13 +319,12 @@ hr{
   flex-direction: column;
 }
 
-.quizphoto{
-  margin:0;
-  padding:0;
-  width:400px;
-  height:500px;
+/*logo in nav*/
+.logo{
+  width:60px;
+  padding:1px;
+
 }
 
 
- /*rgb(194, 169, 169)*/
 
