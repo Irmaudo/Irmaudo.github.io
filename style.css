@@ -276,15 +276,6 @@ ol{
   }
 }
 
-hr{
-  margin:2em;
-}
-
-.gallerytext{
-  background-color: rgb(127, 127, 127);
-  padding:40px;
-  margin:1em;
-}
 
 /*homepage about us*/
 .fullcontainer{
@@ -326,5 +317,15 @@ hr{
 
 }
 
+/*gallery*/
+hr{
+  margin:2em;
+}
+
+.gallerytext{
+  background-color: rgb(188, 187, 187);
+  padding:40px;
+  margin:1em;
+}
 
 
