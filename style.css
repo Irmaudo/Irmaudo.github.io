@@ -204,13 +204,17 @@ ol{
 }
 
 .vragen{
-  margin:3em;
+  margin:1em;
   display: flex;
   flex-direction: column;
   
   
 }
 
+.vragen {
+  background-color: rgb(194, 169, 169);
+  padding:3em;
+}
 .kolom{
   display: flex;
   justify-content: center;
