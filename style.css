@@ -184,14 +184,12 @@ h3{
 /*photo of homepage*/
 
 
-.image{
+image{
   width:2em;
   height: auto;
   display: flex;
   margin:1em;
 }
-
-
 
 
 /*for the quiz*/
