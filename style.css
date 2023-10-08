@@ -16,7 +16,7 @@
 }
 
 /*Footer*/
-.footer{
+footer{
   margin-top: 150px;
   width:100%;
   padding:20px;
@@ -24,17 +24,16 @@
   display:flex;
 }
 
-.footer section{
+footer section{
   text-align:center;
 }
 
-.footer a{
+footer a{
   font-size: 1em;
 }
-.footer p{
+footer p{
   font-size: 1em;
 }
-
 /*Lettertypes toepassen*/
 h1,h2,h3{
   font-family: synes;
