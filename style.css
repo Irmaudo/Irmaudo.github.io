@@ -1,309 +1,71 @@
+/*navigation*/
 
-/*lettertypes*/
-@font-face{
-  font-family: Roboto;
-  src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+  
+.navlist{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    margin:0em;
+    padding:1em;
+    background-color: hsla(254, 33%, 57%, 0.69);
 }
 
-@font-face{
-  font-family: Syne;
-  src: url(fonts/Syne-Mono.otf);
-}
-
-@font-face{
-  font-family: Synes;
-  src: url(fonts/Syne-Extra.otf);
-}
-
-
-/*Lettertypes toepassen*/
-h1,h2,h3{
-  font-family: synes;
-}
-
-li{
-  font-family:Roboto;
-}
-
-p,a{
-  font-family: Syne;
-}
-
-
-/*Everywhere*/
-*{
-  box-sizing: border-box;
-}
-
-*{padding:0px;
-margin:0px;
-}
-
-
-/*image*/
-img{width:20em;
-    height:auto;
+.logo, .burger{
+    width:4em;
 }
 
 img{
-  padding:1em;
+    width:30em;
+    display: flex;
+    justify-content:center;
 }
 
-
-/*navigation*/
-nav{
-  background-color:rgb(194, 169, 169);
+main{
+    background-color: hsl(253, 53%, 88%);
+    margin:0em;
 }
 
-.navlist {
-  list-style-type: none;
-}
-
-.navlist li{
-  display:inline-flex;
-}
-
-/*logo in nav*/
-.logo{
-  width:60px;
-  padding:1px;
-}
-
-
-/*Footer*/
 footer{
-  margin-top: 150px;
-  width:100%;
-  padding:20px;
-  background-color:rgb(194, 169, 169) ;
-  display:flex;
+    background-color: hsla(254, 33%, 57%, 0.69);
 }
 
-footer section{
-  text-align:center;
-}
-
-footer a{
-  font-size: 1em;
-}
-footer p{
-  font-size: 1em;
-}
-
-
-/*links*/
-a:link {
-  color: rgb(0, 0, 0);
-  text-decoration:none;
-}
-a:visited {
-  color: rgb(0, 0, 0);
-}
-
-a:hover {
-  color: rgb(103, 59, 59);
-  text-decoration:overline;
-}
-a:active {
-  color: rgba(171, 12, 12, 0.57);
-}
-a{font-size: 30px;}
-
-
-/*title aligns / font-sizes / boxmodels*/
-h1{ font-size:50px;
-  text-align:center;
-  background-image: url(images/Unknown-30.jpg);
-  margin:0;
-  padding:1em;
-}
-
-h2{font-size: 40px;
-  text-align: center;
-  margin:1em;
-}
-
-h3{font-size: 30px;
-  padding:20px;
-  text-align: center;
-  background-color:rgb(194, 169, 169);
-}
-
-p{font-size:20px ;
-  text-align: left;
-  margin:1em;
-}
-
-li{
-  margin:1em;
-  font-size:1em;
- }
-
-
-/*for the columns in the homepage and quiz*/
 .container{
-  display:flex;
-  justify-content: center;
-}
-
+    display:flex;
+    justify-content: center;
+  }
+  
 .card{
-  background-color: rgb(194, 169, 169);
-  height:600px;
-  width:400px;
-  margin:40px;
-}
-
+    background-color: rgb(201, 183, 230);
+    height:30em;
+    width: 20em;
+    margin: 2em;
+  }
+  
 .text{
-  text-align: center;
-}
-
+    text-align: center;
+  }
+  
 .kolom{
-  display: flex;
-  justify-content: center;
-}
-
-.card-image{
-  width:400px;
-  height:400px;
-}
-
-
-/*movement of columns in homepage*/
-.container:hover{
-  animation-duration: 2s;
-  animation-name: omhoog;
-}
-
-@keyframes omhoog{
-  0%{ 
-    transform:translateY(0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
-  50%{
-    transform:translateY(-20px);
-  }
-
-  100%{
-    transform:translateY(0px);
-  }
+h2,p {
+    display: flex;
+    justify-content: center;
 }
 
-
-/*homepage about us*/
-.fullcontainer{
-  background-color:  rgb(194, 169, 169);
-  padding:0;
-  margin:0;
+.card img{
+    width:20em;
+    display: flex;
+    justify-content: center;
+    
 }
 
-.fullcard-image{
-  margin:0;
-  padding:0;
-  width:700px;
+main img{
+    width:30em;
+    display: flex;
+    justify-content: center;
 }
-
-.fullcard{
-  display: flex;
-}
-
-.linken{
-  font-family: synes;
-  display: flex;
-  justify-content:center;
-}
-
-.linktext{
-  display: flex;
-  justify-content: center;
-}
-
-.linkentekst{
-  display: flex;
-  flex-direction: column;
-}
-
-
-/*photos for styles information*/
-.photo{
-  float: right;
-  width:250px;
-}
-
-.foto{
-  float: left;
-  width:250px;
-}
-
-
-/*gallery*/
-.image{
-  display: flex;
-  justify-content: center;
-}
-
-hr{
-  margin:2em;
-}
-
-.gallerytext{
-  background-color: rgb(188, 187, 187);
-  padding:40px;
-  margin:1em;
-}
-
-
-/*for the quiz*/
-ol{
-  background-color: white;
-}
-
-.vragen{
-  margin:1em;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(194, 169, 169);
-  padding:3em;
-}
-
-.quizphoto{
-  margin:0;
-  padding:0;
-  width:400px;
-  height:500px;
-}
-
-.background{
-  background-image: url(images/Unknown-30.jpg);
-  padding:2em;
-}
-
-
-/*contact us page*/
-.contactus{
-  background-color: rgb(194, 169, 169);
-  padding:4em;
-  margin:10px;
-  display: flex;
-  justify-content: center;
-}
-
-.us{
-  margin:100px;
-  padding:1px;
-  background-color: white;
-}
-
-.contactfoto{
-  display: flex;
-  align-items: center;
-  float:left;
-  width:400px;
-}
-
-
-
-
-
-
-
 
