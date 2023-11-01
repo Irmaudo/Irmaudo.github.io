@@ -1,5 +1,19 @@
-/*navigation*/
+/*links*/
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(255, 255, 255);
+  }
 
+
+/*navigation*/
   
 .navlist{
     list-style-type: none;
@@ -36,7 +50,7 @@ footer{
   
 .card{
     background-color: rgb(201, 183, 230);
-    height:30em;
+    height:40em;
     width: 20em;
     margin: 2em;
   }
@@ -51,15 +65,19 @@ footer{
     flex-direction: column;
   }
 
-h2,p {
+h2 {
     display: flex;
     justify-content: center;
 }
 
+p{
+  margin:1em;
+}
 .card img{
     width:20em;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+  
     
 }
 
@@ -67,5 +85,14 @@ main img{
     width:30em;
     display: flex;
     justify-content: center;
+}
+
+.linken{
+    display: flex;
+    justify-content: center;
+    background-color: hsla(254, 33%, 57%, 0.69);
+    font-size: 25px;
+}
+
 }
 
