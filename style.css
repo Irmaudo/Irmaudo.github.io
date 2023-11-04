@@ -174,5 +174,11 @@ header{
 
 }
 
+hr{
+  margin:1em;
+}
 
+.opbouw{
+  margin:2em;
+}
 /*background-color: hsl(219, 51%, 44%) ;*/
