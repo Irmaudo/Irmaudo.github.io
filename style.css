@@ -31,6 +31,7 @@ header .navlist{
 header{
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   padding:2em;
+
 }
 
 img{
@@ -70,6 +71,10 @@ img{
 h2 {
     display: flex;
     justify-content: center;
+}
+
+h3{
+  margin:1em;
 }
 
 p{
@@ -128,10 +133,37 @@ footer{
 footer .navlist{
   display: flex;
   justify-content:space-evenly;
-  margin-right: 4em;
+  margin-right: 2em;
   padding:1em;
 }
 header{
   background-color: hsl(214, 55%, 71%);
 }
 
+.voedseltekst{
+  margin:2em;
+  padding: 3em;
+  background-color: white;
+  border-radius: 3em;
+}
+
+.mainvoedsel{
+  background-color: hsl(214, 55%, 71%);
+  padding:1em;
+  border-radius: 5em;
+}
+
+.informatie{
+  background-color: hsl(42, 75%, 84%);
+  border-radius: 3em;
+  padding:1em;
+  margin:1em;
+}
+
+.informatie img{
+  width:8em;
+  float:right;
+  display:flex;
+  
+}
+/*background-color: hsl(219, 51%, 44%) ;*/
