@@ -71,6 +71,7 @@ img{
 h2 {
     display: flex;
     justify-content: center;
+    color: white
 }
 
 h3{
@@ -156,8 +157,9 @@ header{
 .informatie{
   background-color: hsl(42, 75%, 84%);
   border-radius: 3em;
-  padding:1em;
+  padding:2em;
   margin:1em;
+  border: 2px solid #ffffff;
 }
 
 .informatie img{
@@ -165,5 +167,10 @@ header{
   float:right;
   display:flex;
   
+}
+
+.voedselbackground{
+  background-color: hsl(219, 51%, 44%);
+
 }
 /*background-color: hsl(219, 51%, 44%) ;*/
