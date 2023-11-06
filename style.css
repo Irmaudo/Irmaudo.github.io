@@ -8,7 +8,15 @@
   src: url(andora_modern_serif/Andora\ Modern\ Serif.otf);
 }
 
+@font-face{
+  font-family: playfair ;
+  src: url(Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
 
+p{
+  font-family: playfair;
+  font-size:13px;
+}
 
 h3{
   font-family: andora;
@@ -159,10 +167,11 @@ header{
 
 .voedseltekst{
   margin:3em;
-  padding: 2em;
+  padding: 3em;
   background-color: white;
   border-radius: 3em;
-  font-size: 12px;
+  font-size: 13px;
+  border: 1px solid hsl(219, 51%, 44%);
 }
 
 .mainvoedsel{
@@ -175,16 +184,19 @@ header{
 .informatie{
   background-color: hsl(42, 75%, 84%);
   border-radius: 3em;
-  padding:1px;
-  margin:2em;
-  border: 2px solid #ffffff;
+  padding:7px;
+  margin:1em;
+  border: 1px solid hsl(219, 51%, 44%);
   font-size: 15px;
 }
 
 .informatie img{
-  width:8em;
+  width:7em;
 }
 
+.informatie h3{
+  font-weight:bold;
+}
 .voedselbackground{
   background-color: hsl(219, 51%, 44%);
 
@@ -196,7 +208,7 @@ header{
 }
 
 .opbouw img{
-  width:7em;
+  width:6em;
 }
 
 .illustratierechts{
@@ -249,6 +261,14 @@ hr{
   font-weight:bold;
   font-family: andora;
   font-size:15px;
-  
+}
 
+.rechts{
+  display: flex;
+  justify-content:right;
+}
+
+h1{
+  font-family:andora;
+  font-size:28px;
 }
