@@ -1,3 +1,21 @@
+@font-face{
+  font-family: andreas ;
+  src: url(andreas_2/Andreas.ttf);
+}
+
+@font-face{
+  font-family: andora ;
+  src: url(andora_modern_serif/Andora\ Modern\ Serif.otf);
+}
+
+
+
+h3{
+  font-family: andora;
+  font-size: 1em;
+}
+
+
 /*links*/
 a:link {
     color: rgb(0, 0, 0);
@@ -160,22 +178,16 @@ header{
   padding:1px;
   margin:2em;
   border: 2px solid #ffffff;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .informatie img{
   width:8em;
-  float:right;
-  
 }
 
 .voedselbackground{
   background-color: hsl(219, 51%, 44%);
 
-}
-
-hr{
-  margin:1em;
 }
 
 .opbouw{
@@ -191,11 +203,17 @@ hr{
   float:right;
 }
 
+.illustratielinks{
+  float:left;
+}
+
 main h2{
   border-radius: 10em;
-  margin:2em;
-  padding:1em;
+  margin:1em;
+  padding:10px;
   background-color: hsl(214, 55%, 71%);
+  color:rgb(20, 20, 152);
+  font-size: 2em;
 }
 
 main h1{
@@ -213,9 +231,16 @@ h3{
   border-radius: 5em;
   padding:2em;
   color:rgb(20, 20, 152);
-  
 
 }
 
+hr{
+  padding:2px;
+  background-color: hsl(0, 0%, 100%);
+  margin:1em;
 
+}
 
+.round h3{
+  font-size:20px;
+}
