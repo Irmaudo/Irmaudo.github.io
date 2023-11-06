@@ -25,12 +25,12 @@ header .navlist{
 }
 
 .navlist img{
-  width:4em;
+  width:3em;
 }
 
 header{
   border-radius: 0 0 50% 50%/0 0 100% 100%;
-  padding:2em;
+  padding:1em;
 
 }
 
@@ -120,12 +120,10 @@ main li{
   width:20em;
 }
 
-*{
-  color:rgb(20, 20, 152);
-}
+
 
 footer{
-  background-color: hsl(214, 55%, 71%);
+  background-color: hsl(219, 51%, 44%);
   position: fixed;
   width:100%;
   bottom:0;
@@ -134,38 +132,40 @@ footer{
 footer .navlist{
   display: flex;
   justify-content:space-evenly;
-  margin-right: 2em;
-  padding:1em;
+  margin-right: 1em;
+  padding:2px;
 }
 header{
   background-color: hsl(214, 55%, 71%);
 }
 
 .voedseltekst{
-  margin:2em;
-  padding: 3em;
+  margin:3em;
+  padding: 2em;
   background-color: white;
   border-radius: 3em;
+  font-size: 12px;
 }
 
 .mainvoedsel{
   background-color: hsl(214, 55%, 71%);
   padding:1em;
   border-radius: 5em;
+  color:rgb(20, 20, 152);
 }
 
 .informatie{
   background-color: hsl(42, 75%, 84%);
   border-radius: 3em;
-  padding:2em;
-  margin:1em;
+  padding:1px;
+  margin:2em;
   border: 2px solid #ffffff;
+  font-size: 10px;
 }
 
 .informatie img{
   width:8em;
   float:right;
-  display:flex;
   
 }
 
@@ -180,5 +180,42 @@ hr{
 
 .opbouw{
   margin:2em;
+  color:white;
 }
-/*background-color: hsl(219, 51%, 44%) ;*/
+
+.opbouw img{
+  width:7em;
+}
+
+.illustratierechts{
+  float:right;
+}
+
+main h2{
+  border-radius: 10em;
+  margin:2em;
+  padding:1em;
+  background-color: hsl(214, 55%, 71%);
+}
+
+main h1{
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  text-decoration:underline;
+}
+
+.round{
+  background-color: hsl(214, 55%, 71%);
+  border-radius: 5em;
+  padding:2em;
+  color:rgb(20, 20, 152);
+  
+
+}
+
+
+
