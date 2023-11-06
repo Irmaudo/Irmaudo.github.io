@@ -191,7 +191,7 @@ header{
 
 .voedseltekst{
   margin:3em;
-  padding: 3em;
+  padding: 2em;
   background-color: white;
   border-radius: 3em;
   font-size: 13px;
@@ -200,7 +200,7 @@ header{
 
 .mainvoedsel{
   background-color: hsl(214, 55%, 71%);
-  padding:1em;
+  padding:2em;
   border-radius: 5em;
   color:rgb(20, 20, 152);
 }
@@ -213,16 +213,14 @@ header{
   border: 1px solid hsl(219, 51%, 44%);
   font-size: 15px;
   background-color: #FFD74F;
+
 }
 
-.informatie p{
-  background-color: white;
-  padding:1em;
-  border-radius: 1em;
-}
+
 
 .informatie img{
-  width: 9em;
+  width: 8em;
+
 }
 
 .informatie h3{
@@ -341,5 +339,8 @@ div.scroll-container img {
 
 }
 
+p{
+  font-size:13px;
+}
 
 /*background-color: #FFD74F;*/
