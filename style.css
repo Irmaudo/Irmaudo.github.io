@@ -68,7 +68,7 @@ img{
 
 .background{
     /*background-color: hsl(43, 84%, 93%);*/
-    background-color: #FFD74F;
+    background-color: hsl(219, 51%, 44%);;
     margin:0em;
 }
 
@@ -93,9 +93,13 @@ img{
   }
   
 .kolom{
+    /*display: flex;
+    justify-content: center;*/
+    flex-direction: row;
+    overflow: auto;
+    padding: 10px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /*background-color: #FFD74F;*/
   }
 
 h2 {
