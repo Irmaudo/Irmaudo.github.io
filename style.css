@@ -13,6 +13,16 @@
   src: url(Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
+
+button{
+  background-color: #FFD74F;
+  padding:1em;
+  border-radius: 5em;
+  border: 1px solid hsl(219, 51%, 44%);
+  display: flex;
+  justify-content: center;
+}
+
 p{
   font-family: playfair;
   font-size:13px;
@@ -75,18 +85,23 @@ img{
 .container{
     display:flex;
     justify-content: center;
+    background-color: hsl(214, 55%, 71%);
   }
 
 
   
 .card{
-    background-color: hsl(42, 75%, 84%);
-    height:30em;
+    height:27em;
     width: 15em;
     margin: 2em;
     border-radius: 25px;
     border: 1px solid hsl(219, 51%, 44%);
+    background-color: #FFD74F;
   }
+
+.card p{
+  font-size: 13px;
+}
   
 .text{
     text-align: center;
@@ -191,16 +206,23 @@ header{
 }
 
 .informatie{
-  background-color: hsl(42, 75%, 84%);
+  /*background-color: hsl(42, 75%, 84%);*/
   border-radius: 3em;
-  padding:7px;
-  margin:1em;
+  padding:10px;
+  margin:10px;
   border: 1px solid hsl(219, 51%, 44%);
   font-size: 15px;
+  background-color: #FFD74F;
+}
+
+.informatie p{
+  background-color: white;
+  padding:1em;
+  border-radius: 1em;
 }
 
 .informatie img{
-  width:7em;
+  width: 9em;
 }
 
 .informatie h3{
@@ -252,7 +274,6 @@ h3{
   border-radius: 5em;
   padding:2em;
   color:rgb(20, 20, 152);
-
 }
 
 hr{
@@ -287,12 +308,6 @@ h4{
   
 }
 
-.contact{
-  background-color: hsl(219, 51%, 44%);
-  margin:1em;
-  border-radius: 5em;
-
-}
 
 div.scroll-container {
   overflow: auto;
@@ -310,16 +325,21 @@ div.scroll-container img {
   
 }
 
-.button{
+
+.home{
   display: flex;
-  justify-content: center;
-  background-color: #FFD74F;
-  padding:1em;
-  border-radius: 5em;
-  border: 1px solid hsl(219, 51%, 44%);
-  
+  justify-content: left;
+  margin:2em;
 }
 
+.contact{
+  /*background-color: #FFD74F;
+  border-radius: 2em;
+  padding:1em;*/
+  color:white;
+  margin:2em;
+
+}
 
 
 /*background-color: #FFD74F;*/
