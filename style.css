@@ -34,10 +34,9 @@ h4{
 
 p{
   font-family: playfair;
-  font-size:14px;
+  font-size:15px;
   margin:1em;
 }
-
 
 /*links*/
 a:link {
@@ -59,7 +58,6 @@ body{
   margin:0em;
 }
 
-
 /*header navigatie*/
 header .navlist{
     list-style-type: none;
@@ -80,6 +78,17 @@ header{
   background-color: hsl(214, 55%, 71%);
 }
 
+/*tekst op homepagina met de lijnen erboven en eronder*/
+.homelijn hr{
+  background-color: #FFD74F;
+}
+
+.homelijn h1{
+  display:flex;
+  justify-content:left;
+  margin:1em
+}
+
 /*homepagina buttons*/
 .button{
   background-color: #ff953e;
@@ -89,7 +98,7 @@ header{
   margin-left: 80px;
 }
 
-/*pagina opbouw*/
+/*pagina: opbouw*/
 .opbouw{
   margin:2em;
   color:white;
@@ -180,7 +189,6 @@ main img{
   border: 1px solid hsl(219, 51%, 44%);
   font-size: 15px;
   background-color: #FFD74F;
-
 }
 
 .informatie img{
@@ -225,7 +233,6 @@ justify-self: center;
   display: flex;
 }
 
-
 /*main*/
 main h2{
   border-radius: 10em;
@@ -255,24 +262,13 @@ main h1{
   justify-content:right;
 }
 
-
-.home{
-  display: flex;
-  justify-content: left;
-  margin:1em;
-}
-
-.homelijn hr{
-  background-color: #FFD74F;
-  padding:1px;
-}
-
-.lijn{
+/*titels van kopje samen met een icoontje ernaast*/
+.koptitel{
   display: flex;
   justify-content:center
 }
 
-.lijn img{
+.koptitel img{
  width:5em;
  height:5em;
 }
