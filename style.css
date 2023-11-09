@@ -81,9 +81,9 @@ header{
 }
 
 /*homepagina buttons*/
-button{
+.button{
   background-color: #ff953e;
-  padding:1em;
+  padding:10px;
   border-radius: 5em;
   border: 2px solid hsl(219, 51%, 44%); 
   margin-left: 80px;
